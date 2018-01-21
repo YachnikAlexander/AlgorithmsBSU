@@ -20,8 +20,14 @@ public class DetectClicks : MonoBehaviour {
             buttons.GetComponent<ScrollObjects>().speed = -10f;
             buttons.GetComponent<ScrollObjects>().checkPos = -100f;
             m_cube.GetComponent<Animation>().Play("StartGameCube");
-
-            Instantiate(first_SpBlock, new Vector3(-3f, 1.4f, 0f), Quaternion.identity);
+            StartCoroutine(spawnAllBlocks());
+           
         }
+    }
+
+    IEnumerator spawnAllBlocks() {
+        yield return new WaitForSeconds(1.2f);
+        Instantiate(first_SpBlock, new Vector3(-3f, 1.51f, 0f), Quaternion.identity);
+        spawnBlocks.GetComponent<SpawnBlocks>().enabled = true;
     }
 }

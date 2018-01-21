@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Game\SpawnBlocks.cs" />
      <Compile Include="Assets\Scripts\Main Scene\DetectClicks.cs" />
      <Compile Include="Assets\Scripts\Main Scene\MainButtons.cs" />
      <Compile Include="Assets\Scripts\Main Scene\ScrollObjects.cs" />
