@@ -29,5 +29,7 @@ public class DetectClicks : MonoBehaviour {
         yield return new WaitForSeconds(1.2f);
         Instantiate(first_SpBlock, new Vector3(-3f, 1.51f, 0f), Quaternion.identity);
         spawnBlocks.GetComponent<SpawnBlocks>().enabled = true;
+
+        m_cube.AddComponent<Rigidbody>();
     }
 }

@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 0
-  m_AspectRatio: 0.8957056
+  m_AspectRatio: 0.9290322
 --- !u!114 &1582125954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,6 +933,7 @@ GameObject:
   - component: {fileID: 1765969732}
   - component: {fileID: 1765969731}
   - component: {fileID: 1765969733}
+  - component: {fileID: 1765969734}
   m_Layer: 0
   m_Name: DetectClicks
   m_TagString: Untagged
@@ -990,6 +991,18 @@ MonoBehaviour:
     type: 2}
   playTxt: {fileID: 127249048}
   gameName: {fileID: 295281964}
+--- !u!114 &1765969734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765969729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5357cc3d6144157409306b2288887f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCube: {fileID: 185597473}
 --- !u!1 &1875932085
 GameObject:
   m_ObjectHideFlags: 0

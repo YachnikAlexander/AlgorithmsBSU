@@ -12,7 +12,7 @@ public class SpawnBlocks : MonoBehaviour {
     
 	void Start () {
         blockPos = new Vector3(Random.Range(-0.5f, 3f), Random.Range(-3.5f, 0.5f), 0f);
-        blockInst = Instantiate(block, new Vector3(6.5f, -5.5f, 0f), Quaternion.identity) as GameObject;
+        blockInst = Instantiate(block, new Vector3(0.5f, -5.5f, 0f), Quaternion.identity) as GameObject;
         blockInst.transform.localScale = new Vector3(Random.Range(1.2f, 2.2f), 0.3f, 2.17f);
 	}
 
