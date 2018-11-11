@@ -14,6 +14,12 @@ public class Block : MonoBehaviour
             GetComponent<AudioSource>().Play();
         }
 
+
+
+
+
+//hjdglhgjdksgjksd
+
         if (!firstOne) firstOne = true;
     }
 }
