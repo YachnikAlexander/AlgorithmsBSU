@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.exe.config
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.exe
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.pdb
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.Client.dll
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\bin\Debug\RabbitMQ.Client.xml
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.csprojAssemblyReference.cache
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.csproj.CopyComplete
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.exe
+C:\Users\User\source\repos\RabbitMQ\RabbitMQ\obj\Debug\RabbitMQ.pdb
